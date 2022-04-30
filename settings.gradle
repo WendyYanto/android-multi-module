@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "Android Multi Module"
 include ':app'
 include ':router'
+include ':feature_one'
