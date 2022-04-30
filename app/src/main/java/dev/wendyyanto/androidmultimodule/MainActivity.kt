@@ -18,5 +18,9 @@ class MainActivity : AppCompatActivity() {
     viewBinding.textGoToFeatureOne.setOnClickListener {
       Router.goToFeatureOne(this@MainActivity)
     }
+
+    viewBinding.textGoToFeatureTwo.setOnClickListener {
+      Router.goToFeatureTwo(this@MainActivity)
+    }
   }
 }
