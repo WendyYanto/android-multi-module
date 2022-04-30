@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/text_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
@@ -15,4 +16,21 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/text_go_to_feature_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to feature one"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_main" />
+
+    <TextView
+        android:id="@+id/text_go_to_feature_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to feature two"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_go_to_feature_one" />
 </androidx.constraintlayout.widget.ConstraintLayout>
