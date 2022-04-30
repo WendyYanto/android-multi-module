@@ -5,8 +5,8 @@ import android.content.Intent
 
 object Router {
 
-  private const val FEATURE_ONE = "dev.wendyyanto.feature_one.FeatureOneActivity"
-  private const val FEATURE_TWO = "dev.wendyyanto.feature_two.FeatureTwoActivity"
+  private const val FEATURE_ONE = "dev.wendyyanto.featureone.FeatureOneActivity"
+  private const val FEATURE_TWO = "dev.wendyyanto.featuretwo.FeatureTwoActivity"
 
   fun goToFeatureOne(context: Context) {
     val clazz = Class.forName(FEATURE_ONE)

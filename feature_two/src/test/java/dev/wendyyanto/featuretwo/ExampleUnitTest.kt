@@ -1,4 +1,4 @@
-package dev.wendyyanto.feature_one
+package dev.wendyyanto.featuretwo
 
 import org.junit.Test
 

@@ -1,8 +1,8 @@
-package dev.wendyyanto.feature_one
+package dev.wendyyanto.featureone
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import dev.wendyyanto.feature_one.databinding.ActivityFeatureOneBinding
+import dev.wendyyanto.featureone.databinding.ActivityFeatureOneBinding
 
 class FeatureOneActivity : AppCompatActivity() {
 
