@@ -1,6 +1,8 @@
 package dev.wendyyanto.featureone.utility
 
-class FeatureOneUtility {
+import javax.inject.Inject
+
+class FeatureOneUtility @Inject constructor() {
 
   fun getValue(): String {
     return "FeatureOneUtility"

@@ -1,10 +1,15 @@
 package dev.wendyyanto.androidmultimodule.di.module
 
+import dagger.Binds
 import dagger.Module
-import dev.wendyyanto.androidmultimodule.utility.AppUtility
+import dev.wendyyanto.androidmultimodule.utility.AppUtilityImpl
+import dev.wendyyanto.base.utility.AppUtility
+import javax.inject.Singleton
 
 @Module
-object UtilityModule {
+interface UtilityModule {
 
-  fun provideAppUtility(): AppUtility = AppUtility()
+  @Singleton
+  @Binds
+  fun provideAppUtility(appUtilityImpl: AppUtilityImpl): AppUtility
 }
