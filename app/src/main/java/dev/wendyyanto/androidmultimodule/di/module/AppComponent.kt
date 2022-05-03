@@ -4,19 +4,15 @@ import android.app.Application
 import dagger.BindsInstance
 import dagger.Component
 import dev.wendyyanto.androidmultimodule.MainActivity
-import dev.wendyyanto.featureone.utility.di.component.FeatureOneComponent
-import dev.wendyyanto.featuretwo.utility.di.component.FeatureTwoComponent
+import dev.wendyyanto.daggerbridge.component.FeatureComponent
+import dev.wendyyanto.daggerbridge.component.module.FeatureApiModule
 import javax.inject.Singleton
 
 @Singleton
-@Component(modules = [UtilityModule::class])
-interface AppComponent {
+@Component(modules = [UtilityModule::class, FeatureApiModule::class])
+interface AppComponent : FeatureComponent {
 
   fun inject(mainActivity: MainActivity)
-
-  fun featureOneComponent(): FeatureOneComponent
-
-  fun featureTwoComponent(): FeatureTwoComponent
 
   @Component.Builder
   interface Builder {
