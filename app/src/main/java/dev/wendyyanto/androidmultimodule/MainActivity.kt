@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.widget.Toast
 import dev.wendyyanto.androidmultimodule.databinding.ActivityMainBinding
 import dev.wendyyanto.androidmultimodule.di.ComponentProvider
-import dev.wendyyanto.androidmultimodule.utility.AppUtilityImpl
 import dev.wendyyanto.base.utility.AppUtility
 import dev.wendyyanto.router.Router
 import javax.inject.Inject
