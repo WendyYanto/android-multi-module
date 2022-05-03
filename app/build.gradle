@@ -48,6 +48,7 @@ dependencies {
     implementation project(":base")
     implementation project(":router")
     implementation project(":feature_one")
+    implementation project(":feature_one_api")
     implementation project(":feature_two")
 
     // Dagger
