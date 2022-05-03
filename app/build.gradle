@@ -4,7 +4,7 @@ plugins {
     id 'kotlin-kapt'
 }
 
-def daggerVersion = "2.41"
+apply from: "../dependencies.gradle"
 
 android {
     compileSdk 32
