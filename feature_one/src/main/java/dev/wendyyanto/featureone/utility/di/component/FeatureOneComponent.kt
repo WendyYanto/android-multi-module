@@ -6,7 +6,7 @@ import dev.wendyyanto.featureone.utility.di.module.UtilityModule
 import dev.wendyyanto.featureone.utility.di.scope.FeatureOneScope
 
 @FeatureOneScope
-@Subcomponent(modules = [UtilityModule::class])
+@Subcomponent
 interface FeatureOneComponent {
 
   fun inject(featureOneActivity: FeatureOneActivity)

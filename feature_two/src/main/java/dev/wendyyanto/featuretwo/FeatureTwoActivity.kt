@@ -26,6 +26,6 @@ class FeatureTwoActivity : AppCompatActivity() {
 
     setContentView(viewBinding.root)
 
-    Toast.makeText(this, featureTwoUtility.getValue(), Toast.LENGTH_SHORT).show()
+    Toast.makeText(this, featureTwoUtility.getMergedValue(), Toast.LENGTH_SHORT).show()
   }
 }
