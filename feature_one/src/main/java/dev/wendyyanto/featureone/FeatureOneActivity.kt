@@ -3,8 +3,8 @@ package dev.wendyyanto.featureone
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import dev.wendyyanto.feature_one_api.FeatureOneUtility
 import dev.wendyyanto.featureone.databinding.ActivityFeatureOneBinding
-import dev.wendyyanto.featureone.utility.FeatureOneUtility
 import dev.wendyyanto.featureone.utility.di.FeatureOneComponentProvider
 import javax.inject.Inject
 

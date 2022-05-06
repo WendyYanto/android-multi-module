@@ -46,6 +46,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     implementation project(":base")
+    implementation project(":feature_one_api")
 
     // Dagger
     implementation "com.google.dagger:dagger:$daggerVersion"

@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import dev.wendyyanto.androidmultimodule.databinding.ActivityMainBinding
-import dev.wendyyanto.androidmultimodule.di.ComponentProvider
+import dev.wendyyanto.androidmultimodule.di.AppComponentProvider
 import dev.wendyyanto.base.utility.AppUtility
 import dev.wendyyanto.router.Router
 import javax.inject.Inject
@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
 
-    (application as ComponentProvider)
+    (application as AppComponentProvider)
       .loadAppComponent()
       .inject(this)
 

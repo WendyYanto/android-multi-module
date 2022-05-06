@@ -1,4 +1,4 @@
-package dev.wendyyanto.featureone.utility.di.module
+package dev.wendyyanto.daggerbridge.component.module.featureone
 
 import dagger.Binds
 import dagger.Module
@@ -7,7 +7,7 @@ import dev.wendyyanto.featureone.utility.FeatureOneUtilityImpl
 import dev.wendyyanto.featureone.utility.di.scope.FeatureOneScope
 
 @Module
-interface UtilityModule {
+interface FeatureOneApiModule {
 
   @FeatureOneScope
   @Binds
